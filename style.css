@@ -1,0 +1,351 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #2B2B2B;
+  color: white;
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+}
+
+ul {
+  align-items: flex-end;
+  color: #8B8B8B;
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-left: 2%;
+  width: 50%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fa-users, .fa-list-ul, .fa-sort-down, .fa-user-circle {
+  color: #53AEF1;
+} 
+
+.fa-user-circle, .fa-sort-down {
+  font-size: 1.7rem;
+  margin: 0 3%;
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.auctions-li {
+  color: white; 
+}
+
+.username-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2%;
+  margin-bottom: 20px;
+}
+
+.username-p {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+}
+
+.fas:hover,
+.username-p:hover {
+  cursor: pointer;
+}
+
+.fa-sort-down{
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: 50px;
+  width: 250px;
+}
+
+h1 {
+  background-color: #EFEFEF;
+  color: #4D4D4D;
+  font-size: 3rem;
+  padding: 3% 2%;
+}
+
+main {
+  background-color: #EFEFEF;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 475px);
+  grid-gap: 10px;
+  padding: 0 2% 7% 2%;
+}
+
+.box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  -moz-box-shadow:    inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow:         inset 0 0 5px #000000;
+}
+
+.img-article {
+  height: 40%;
+}
+
+.img-article1 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+  url(images/charger.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bid-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.number-bids-div {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.number-bids-p {
+  font-size: 2rem;
+}
+
+.bid-now-img {
+  width: 60px;
+  height: 60px;
+  margin: 4%
+}
+
+.bid-now-img:hover {
+  cursor: pointer;
+  content: url(images/bid-hover.png); 
+}
+
+.model-article, .location-article, .price-article {
+  display: flex;
+  flex-direction: column;
+  height: 16%;
+  justify-content: center;
+  padding: 5%;
+}
+
+.description-article {
+  display: flex;
+  flex-direction: column;
+  height: 12%;
+  justify-content: center;
+  padding: 5%;
+}
+
+.model-p {
+  font-size: 1.2rem;
+  margin-bottom: 2%;
+}
+
+.end-date {
+  font-weight: 300;
+  font-size: .8rem;
+}
+
+.description-div {
+  background-color: #EFEFEF;
+  border-radius: 2px;
+  font-size: .9rem;
+  font-weight: 300;
+  padding: 3%;
+
+}
+
+.description-div:hover {
+  border: solid 2px #56B4F6;
+  cursor: pointer;
+  font-weight: 400;
+  padding-left: 1%;
+}
+
+.price-p {
+  color: #56B4F6;
+  font-size: 1.4rem;
+}
+
+.city-state-p {
+  font-size: 1.2rem;
+}
+
+.img-article2 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+  url(images/buickgsx.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-article3 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+  url(images/70mustang.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-article4 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+  url(images/chevelle.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-article5 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+  url(images/69camaro.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-article6 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+  url(images/plymouth.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-article7 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+  url(images/pontiac.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-article8 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+  url(images/shelby.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.copyright {
+  background-color: #EFEFEF;
+  text-align: center;
+  color: #4D4D4D;
+  padding-bottom: 2%
+}
+
+@media(max-width: 1150px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 475px);
+  }
+}
+
+@media(max-width: 1000px) {
+  ul {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+}
+
+@media(max-width: 850px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 475px);
+  }
+
+  ul {
+    font-size: 1.2rem;
+  }
+}
+
+@media(max-width: 570px) {
+  main {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 475px);
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+}
+
+@media(max-width: 500px) {
+  main {
+    grid-row-gap: 20px;
+  }
+
+  ul, main, .username-p {
+    padding: 0 4%;
+  } 
+
+  h1 {
+    padding: 4%
+  }
+
+  header {
+    flex-direction: column-reverse;
+    height: 350px;
+  }
+
+  .username-div {
+    align-items: center;
+  }
+
+  .logo {
+    align-self: center;
+    margin-top: 65px;
+    height: 60px;
+    width: 270px;
+  }
+
+  .username-p {
+    width: 240px;
+  }
+
+  ul {
+    align-items: flex-start;
+    width: 100%;
+    align-items: center;
+  }
+
+  li {
+    margin-bottom: 3%;
+  }
+}
